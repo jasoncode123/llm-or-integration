@@ -123,3 +123,14 @@ q_min_hint: 8000
 
 # 阶段 3：派车调度
 time_limit: 600
+
+#  Data  (数据说明)
+
+此目录用于存放私有数据文件，如：
+- demand.csv
+- supply.csv
+- network.csv
+- fleet.csv
+
+这些文件包含业务敏感信息，因此未在仓库中公开。  
+如需运行项目，请自行准备等结构数据或联系作者。
