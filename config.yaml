@@ -1,0 +1,17 @@
+run:
+  start_date: "2025-07-01"
+  end_date: "2025-07-02"
+
+phase1:
+  local_gap_ratio: 0.05
+
+phase2:
+  rho: 0.000176
+  alpha: 1.0
+  age_penalty_le25: 0.05
+  small_threshold: 200
+  vehicle_capacity: 16000
+  q_min_hint: 8000
+
+phase3:
+  time_limit: 600
