@@ -1,0 +1,27 @@
+# ===== Python 缓存文件 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# ===== IDE 临时文件 =====
+.idea/
+.vscode/
+.venv/
+.env/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+
+# ===== 输出结果与日志 =====
+data/
+data_out/
+logs/
+~$*.xlsx
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
